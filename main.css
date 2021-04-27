@@ -8,7 +8,7 @@
 /* ==== A SIMPLE TOP NAVIGATION ==== */
 
 nav {
-    background-color: black;
+    background-color: rgba(29, 28, 28, 0.9);
     width: 100%;
     height: 20rem;
     position: fixed;
