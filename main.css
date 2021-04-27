@@ -1,0 +1,63 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 20rem;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    vertical-align: middle;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn {
+    display: block;
+    width: 80%;
+    height: 24%;
+    color: whitesmoke;
+    font-size: 38px;
+    padding: 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: darkgrey;
+    transition: color .3s ease-in-out;
+}
+
+div {
+    margin-top: 22rem;
+}
+
+h1 {
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 22px;
+}
+
+.btn-sign-up {
+    border: .1rem solid darkgrey;
+    border-radius: 9999px;
+}
+
+.btn-sign-up:hover {
+    color: black;
+    background-color: white;
+    transition: color .3s ease-in-out;
+}
